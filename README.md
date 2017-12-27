@@ -1,9 +1,20 @@
-# PyBrute
+# HashCrack
 
-PyBrute is a hash-cracking utility script designed for cybersecurity Capture-the-Flag events. The script is able to quickly find MD5, SHA1, and SHA256 hash collisions given a complete or partial hash using a brute force method. The script will print all found collisions.
+HashFindr is a hash-finding utility designed for cybersecurity related Capture-the-Flag events. The utility is quickly able find MD5, SHA1, and SHA256 hash collisions given a complete or partial hash. The utility uses brute force methods and will print all found collisions. Implementations are provided in Java and Python, with the Java implementation being notably faster.
 
-## Requirements
-```pip3 install click```
+## Java - Requirements
+* None
 
-## Usage
-```python3 PyBrute.py```
+## Java - Usage:
+Compile:
+* ```javac -cp ".;./commons-codec-1.10.jar;" .\JavaBrute.java```
+
+Run:
+* ```java -cp ".;./commons-codec-1.10.jar;" JavaBrute```
+
+## Python - Requirements
+* ```pip3 install click```
+
+## Python - Usage
+* ```python3 PyBrute.py```
+
