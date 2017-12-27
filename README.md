@@ -1,4 +1,4 @@
-# HashCrack
+# HashFindr
 
 HashFindr is a hash-finding utility designed for cybersecurity related Capture-the-Flag events. The utility is quickly able find MD5, SHA1, and SHA256 hash collisions given a complete or partial hash. The utility uses brute force methods and will print all found collisions. Implementations are provided in Java and Python, with the Java implementation being notably faster.
 
